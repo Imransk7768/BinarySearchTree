@@ -25,5 +25,7 @@ public class Program
         tree.Insert(71);
         tree.Display();
         tree.GetSize();
+        bool result = tree.IfExists(67, tree);
+        Console.WriteLine(result);
     }
 }
